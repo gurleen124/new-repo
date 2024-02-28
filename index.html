@@ -1,17 +1,55 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>   
+    <title>Productly | Design Agency Landing Page UI</title>
+    <!-- style css file -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
 </head>
-  <body>
-    <h1 class="bg-warning text-white">Hello, world!</h1>
-    <h1 class="text-warning">Hello, world!</h1>
 
-    <div class="border border-warning">this is box</div>
-    <span class="badge text-bg-warning">Primary</span>
-    <button type="button" class="btn btn-warning">Primary</button>
-  </body>
+<body>
+    <!-- main section -->
+    <main>
+        <!-- header section-->
+        <header class="bg-white">
+            <nav class="navbar navbar-expand-lg sticky-top p-3">
+                <div class="container p-0">
+                    <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg" height="31px" alt="productly-logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto small">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Customers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resources</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex ms-lg-4">
+                            <a class="btn btn-outline-light text-dark rounded-1 px-4 py-2 fw-semibold" href="#" role="button">Sign In</a>
+                            <a class="btn btn-warning text-white rounded-1 px-4 py-2 fw-semibold ms-3" href="#" role="button">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- /header section-->
+    </main>
+    <!-- /main section -->
+</body>
+
 </html>
