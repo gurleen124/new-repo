@@ -12,47 +12,48 @@
 </head>
 
 <body>
-    <!-- main section -->
-    <main>
-        <!-- header section-->
-        <header>
-            <nav class="navbar navbar-expand-lg sticky-top p-3 navbar-light">
-                <div class="container px-3">
-                    <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg" height="31px"
-                            alt="productly-logo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto small text-primary">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Product</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Customers</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Resources</a>
-                            </li>
-                        </ul>
-                        <div class="d-flex ms-lg-4">
-                            <a class="btn btn-outline-light text-dark rounded-1 px-4 py-2 fw-semibold border-4" href="#"
-                                role="button">Sign In</a>
-                            <a class="btn btn-warning text-white rounded-1 px-4 py-2 fw-semibold ms-3 border-4" href="#"
-                                role="button">Sign Up</a>
-                        </div>
+    <!-- header section-->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top p-3 navbar-light bg-light bg-opacity-75">
+            <div class="container px-3">
+                <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg" height="31px"
+                        alt="productly-logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto small">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Customers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resources</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex ms-lg-4">
+                        <a class="btn btn-outline-primary text-primary border-primary-subtle rounded-1 px-4 py-2 fw-semibold"
+                            href="#" role="button">Sign In</a>
+                        <a class="btn btn-warning text-white rounded-1 px-4 py-2 fw-semibold ms-3" href="#"
+                            role="button">Sign Up
+                        </a>
                     </div>
                 </div>
-            </nav>
-        </header>
-        <!-- /header section-->
+            </div>
+        </nav>
+    </header>
+    <!-- /header section-->
+    <!-- main section -->
+    <main>
         <!-- hero section -->
-        <section class="pb-5">
+        <section class="py-5 mt-5">
             <div class="container">
                 <div class="row py-5">
                     <div class="col-lg-6 px-3">
@@ -70,7 +71,8 @@
                                     <path fill="currentColor"
                                         d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z">
                                     </path>
-                                </svg>Watch the video</a>
+                                </svg>Watch the video
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-6 ms-lg-auto">
@@ -81,14 +83,18 @@
         </section>
         <!-- /hero section -->
         <!-- design tools section -->
-        <section class="container my-5 pb-5">
-            <div class="row text-center justify-content-center mb-4">
-                <div class="col-lg-8 pt-5">
-                    <h2 class="display-5 fw-bold text-dark mt-2">We design tools to unveil
-                        your superpowers</h2>
+        <section class="bg-design-tools my-5 pb-5 z-n1">
+            <div class="container">
+                <div class="row text-center justify-content-center mb-4">
+                    <div class="col-lg-8 pt-5">
+                        <h2 class="display-5 fw-bold text-dark mt-2">We design tools to unveil
+                            your superpowers
+                        </h2>
+                    </div>
                 </div>
             </div>
-            <div class="bg-design-tools">
+
+            <div class="container">
                 <div class="row text-start">
                     <div class="col-lg-3 px-3">
                         <img src="./assets/images/icon1.png" alt="cursor" width="75px"
@@ -112,15 +118,17 @@
                         <img src="./assets/images/icon4.png" alt="time" width="75px"
                             class="mb-3 position-relative ms-n3">
                         <h5 class="mb-3 fw-semibold text-dark">Five second tests</h5>
-                        <p class="fw-medium text-secondary">Personal choices and the overall personality of the person.
+                        <p class="fw-medium text-secondary">Personal choices and the overall personality of the
+                            person.
                         </p>
                     </div>
                 </div>
-                <div class="d-flex justify-content-center pb-5">
-                    <a class="btn btn-warning text-white rounded-1 px-4 py-2 fw-semibold border-5" href="#"
-                        role="button">Sign Up Now</a>
+                <div class="d-flex justify-content-center pb-4">
+                    <a class="btn btn-warning text-white rounded-1 px-4 py-2 fw-semibold text-uppercase" href="#"
+                        role="button">Sign Up
+                        Now
+                    </a>
                 </div>
-            </div>
             </div>
         </section>
         <!-- /design tools section -->
@@ -130,28 +138,207 @@
                 <div class="row py-5">
                     <div class="col-lg-6 px-3">
                         <p class="text-secondary fw-semibold fs-5 mb-2">Effortless Validation for</p>
-                        <h2 class="fw-bold">Design Professionals</h2>
+                        <h2 class="fw-bold text-dark">Design Professionals</h2>
                         <p class="text-secondary mb-lg-4 fw-medium">The Myspace page defines the individual,his or
                             her characteristics, traits, personal choices and the overall personality of the person.
                         </p>
                         <h4 class="fs-5 fw-bold">Accessory makers</h4>
-                        <p class="text-secondary mb-lg-4 fw-medium">While most people enjoy casino gambling, sports betting, lottery and bingo playing for
+                        <p class="text-secondary mb-lg-4 fw-medium">While most people enjoy casino gambling, sports
+                            betting, lottery and bingo playing for
                             the fun</p>
                         <h4 class="fs-5 fw-bold">Alterationists</h4>
-                        <p class="text-secondary mb-lg-4 fw-medium">If you are looking for a new way to promote your business that won't cost you money,</p>
+                        <p class="text-secondary mb-lg-4 fw-medium">If you are looking for a new way to promote your
+                            business that won't cost you money,</p>
                         <h4 class="fs-5 fw-bold">Custom Design engineers</h4>
-                        <p class="text-secondary mb-lg-4 fw-medium">If you are looking for a new way to promote your business that won't cost you money,</p>
+                        <p class="text-secondary mb-lg-4 fw-medium">If you are looking for a new way to promote your
+                            business that won't cost you money,
+                        </p>
                     </div>
                     <div class="col-lg-6 ms-lg-auto">
-                        <img src="./assets/images/validation.png" alt="validation" class="img-fluid">
+                        <img src="./assets/images/validation.png" alt="validation" class="img-fluid float-end"
+                            width="90%">
                     </div>
                 </div>
             </div>
         </section>
         <!-- /design professionals section -->
-
+        <!-- product managers -->
+        <section class="pb-5 text-dark">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-6 ms-lg-auto">
+                        <img src="./assets/images/manager.png" alt="manager" class="img-fluid" width="90%">
+                    </div>
+                    <div class="col-lg-6 px-3">
+                        <p class="text-secondary fw-semibold fs-5 mb-2">Easier decision making for</p>
+                        <h2 class="fw-bold text-dark">Product Managers</h2>
+                        <p class="text-secondary mb-lg-4 fw-medium">The Myspace page defines the individual,his or her
+                            characteristics, traits, personal choices and the overall
+                            personality of the person.
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-10 text-secondary fw-medium">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="/assets/images/tick.png" alt="tick-icon" class="me-4">
+                                    <p class="mb-0">Never worry about overpaying for your
+                                        energy again.</p>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="/assets/images/tick.png" alt="tick-icon" class="me-4">
+                                    <p class="mb-0">We will only switch you to energy companies
+                                        that we trust and will treat you right</p>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="/assets/images/tick.png" alt="tick-icon" class="me-4">
+                                    <p class="mb-0">We track the markets daily and know where the
+                                        savings are.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /product managers -->
+        <!-- marketers -->
+        <section class="pb-5 text-dark">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-6 px-3">
+                        <p class="text-secondary fw-semibold fs-5 mb-2">Optimisation for</p>
+                        <h2 class="fw-bold text-dark">Marketers</h2>
+                        <p class="text-secondary mb-lg-4 fw-medium">Few would argue that, despite the advancements of
+                            feminism over the past three decades, women still face a
+                            double standard when it comes to their behavior.
+                        </p>
+                        <h4 class="fs-5 fw-bold">Accessory makers</h4>
+                        <p class="text-secondary mb-lg-4 fw-medium">While most people enjoy casino gambling, sports
+                            betting, lottery and bingo playing for
+                            the fun</p>
+                        <h4 class="fs-5 fw-bold">Alterationists</h4>
+                        <p class="text-secondary mb-lg-4 fw-medium">If you are looking for a new way to promote your
+                            business that won't cost you money,</p>
+                        <h4 class="fs-5 fw-bold">Custom Design engineers</h4>
+                        <p class="text-secondary mb-lg-4 fw-medium">If you are looking for a new way to promote your
+                            business that won't cost you money,
+                        </p>
+                    </div>
+                    <div class="col-lg-6 ms-lg-auto">
+                        <img src="./assets/images/marketer.png" alt="marketer" class="img-fluid float-end" width="90%">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /marketers -->
+        <!-- contact section -->
+        <section class="bg-contact-section my-5 pb-5">
+            <div class="container py-5">
+                <div class="row text-center justify-content-center mb-4 mt-5">
+                    <div class="col-lg-6 py-5 my-5">
+                        <h2 class="fw-bold text-dark mb-4">Need a super hero?</h2>
+                        <p class="text-info fw-medium mb-5">Do you require some help for your project: Conception
+                            workshop,
+                            prototyping, marketing strategy, landing page, Ux/UI?</p>
+                        <a class="btn btn-warning text-white rounded-1 px-4 py-2 fw-semibold" href="#"
+                            role="button">Contact our expert
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /contact section -->
+        <!-- blog section -->
+        <section class="container mb-5 pb-5">
+            <div>
+                <h2 class="fw-bold mb-3 text-dark">Marketing Strategies</h2>
+                <p class="mb-5 text-secondary">Join 40,000+ other marketers and get proven strategies on email marketing
+                </p>
+            </div>
+            <div class="row pb-5 mb-5">
+                <div class="col-lg-4">
+                    <div class="card mb-3 border-0">
+                        <img src="/assets/images/marketing01.png" class="card-img-top" alt="marketing">
+                        <div class="card-body ps-0">
+                            <p class="card-text text-body-secondary">By <a href="#"
+                                    class="text-decoration-none text-reset"><strong>Abdullah</strong></a> | 03 March
+                                2019</p>
+                            <h5 class="card-title fw-bold">Increasing Prosperity With Positive Thinking</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-3 border-0">
+                        <img src="/assets/images/marketing02.png" class="card-img-top" alt="marketing">
+                        <div class="card-body ps-0">
+                            <p class="card-text text-body-secondary">By <a href="#"
+                                    class="text-decoration-none text-reset"><strong>Abdullah</strong></a> | 03 March
+                                2019</p>
+                            <h5 class="card-title fw-bold">Motivation Is The First Step To Success</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-3 border-0">
+                        <img src="/assets/images/marketing03.png" class="card-img-top" alt="marketing">
+                        <div class="card-body ps-0">
+                            <p class="card-text text-body-secondary">By <a href="#"
+                                    class="text-decoration-none text-reset"><strong>Abdullah</strong></a> | 03 March
+                                2019</p>
+                            <h5 class="card-title fw-bold">Success Steps For Your Personal Or Business Life</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /blog section -->
     </main>
     <!-- /main section -->
+    <!-- footer section -->
+    <footer class="container">
+        <hr>
+        <div class="row my-5 pt-3 justify-content-between">
+            <div class="col-lg-3">
+                <img src="/assets/images/logo.svg" alt="productly-logo">
+            </div>
+            <div class="col-lg-3">
+                <h5 class="mb-lg-4 text-dark fw-normal">Quick Links</h5>
+                <ul class="list-unstyled text-secondary">
+                    <li><a href="#" class="text-reset text-decoration-none">About us</a></li>
+                    <li><a href="#" class="text-reset text-decoration-none">Blog</a></li>
+                    <li><a href="#" class="text-reset text-decoration-none">Contact</a></li>
+                    <li><a href="#" class="text-reset text-decoration-none">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h5 class="mb-lg-4 text-dark fw-normal">Legal stuff</h5>
+                <ul class="list-unstyled text-secondary">
+                    <li><a href="#" class="text-reset text-decoration-none">Disclaimer</a></li>
+                    <li><a href="#" class="text-reset text-decoration-none">Financing</a></li>
+                    <li><a href="#" class="text-reset text-decoration-none">Privacy Policy</a></li>
+                    <li><a href="#" class="text-reset text-decoration-none">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <div class="fs-5 mb-4">knowing you're always on the best energy deal.</div>
+                <div><input type="tel" class="form-control py-2 px-4 mb-3" placeholder="Enter your Phone Number"
+                        aria-label="phone" aria-describedby="basic-addon1">
+                    <a class="btn btn-warning text-white rounded-1 px-4 py-1 fw-semibold" href="#" role="button">Sign Up
+                        Now
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr class="mb-0">
+        <div class="row p-3">
+            <div class="col-lg-6 text-start">© 2024 Your Company Inc</div>
+            <div class="col-lg-6 text-end">Made with <span><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="red" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1" />
+                    </svg></span> by Gurleen Kaur</div>
+        </div>
+    </footer>
+    <!-- /footer section -->
 </body>
 
 </html>

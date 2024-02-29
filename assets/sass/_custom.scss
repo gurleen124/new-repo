@@ -1,9 +1,64 @@
-.ms-n3{
+.ms-n3 {
     left: -16px;
 }
-.bg-design-tools{
-    background-image: url(assets/images/bg-shape.png);
+
+div {
+    ul {
+        li {
+            .nav-link {
+                color: $primary-color;
+            }
+
+            .nav-link:hover {
+                color: $warning-color;
+            }
+        }
+    }
+}
+
+div {
+
+    a.btn-outline-primary:hover,
+    a.btn-outline-primary:active,
+    a.btn-outline-primary:focus,
+    a.btn-outline-primary:visited {
+        background-color: $white !important;
+        color: $secondary-color;
+    }
+
+    a.btn-outline-primary:active,
+    a.btn-outline-primary:focus {
+        box-shadow: 0 0 0 0.25rem $shadow-color;
+    }
+
+    a.btn-warning:hover,
+    a.btn-warning:focus {
+        background-color: $btn-bg-hover-color !important;
+        border-color: $btn-bg-hover-color;
+        color: $secondary-color;
+    }
+
+}
+
+.bg-design-tools {
+    background-image: url(/assets/images/bg-shape.png);
     background-repeat: no-repeat;
-    width: 100%;
-    z-index: 1;
+    background-position-y: bottom;
+    background-size: contain;
+}
+
+.bg-contact-section {
+    background-image: url(/assets/images/oval.png);
+    background-size: cover;
+    background-position: top;
+}
+
+div {
+    p.card-text {
+        a{
+            strong:hover {
+                color: $warning-color;
+            }
+        }
+    }
 }
