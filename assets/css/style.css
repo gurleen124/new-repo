@@ -41,7 +41,7 @@
   --bs-secondary: #544837;
   --bs-success: #198754;
   --bs-info: #567592;
-  --bs-warning: #f90;
+  --bs-warning: #ff9900;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #2f281e;
@@ -3044,8 +3044,8 @@ textarea.form-control-lg {
 
 .btn-warning {
   --bs-btn-color: #000;
-  --bs-btn-bg: #f90;
-  --bs-btn-border-color: #f90;
+  --bs-btn-bg: #ff9900;
+  --bs-btn-border-color: #ff9900;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #ffa826;
   --bs-btn-hover-border-color: #ffa31a;
@@ -3055,8 +3055,8 @@ textarea.form-control-lg {
   --bs-btn-active-border-color: #ffa31a;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #f90;
-  --bs-btn-disabled-border-color: #f90;
+  --bs-btn-disabled-bg: #ff9900;
+  --bs-btn-disabled-border-color: #ff9900;
 }
 
 .btn-danger {
@@ -3179,19 +3179,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-warning {
-  --bs-btn-color: #f90;
-  --bs-btn-border-color: #f90;
+  --bs-btn-color: #ff9900;
+  --bs-btn-border-color: #ff9900;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #f90;
-  --bs-btn-hover-border-color: #f90;
+  --bs-btn-hover-bg: #ff9900;
+  --bs-btn-hover-border-color: #ff9900;
   --bs-btn-focus-shadow-rgb: 255, 153, 0;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #f90;
-  --bs-btn-active-border-color: #f90;
+  --bs-btn-active-bg: #ff9900;
+  --bs-btn-active-border-color: #ff9900;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #f90;
+  --bs-btn-disabled-color: #ff9900;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #f90;
+  --bs-btn-disabled-border-color: #ff9900;
   --bs-gradient: none;
 }
 
@@ -11860,7 +11860,7 @@ div ul li .nav-link {
   color: #212832;
 }
 div ul li .nav-link:hover {
-  color: #f90;
+  color: #ff9900;
 }
 
 div a.btn-outline-primary:hover,
@@ -11871,7 +11871,9 @@ div a.btn-outline-primary:visited {
   color: #544837;
 }
 div a.btn-outline-primary:active,
-div a.btn-outline-primary:focus {
+div a.btn-outline-primary:focus,
+div a.btn-link:active,
+div a.btn-link:focus {
   box-shadow: 0 0 0 0.25rem rgba(255, 153, 0, 0.2509803922);
 }
 div a.btn-warning:hover,
@@ -11895,7 +11897,15 @@ div a.btn-warning:focus {
 }
 
 div p.card-text a strong:hover {
-  color: #f90;
+  color: #ff9900;
+}
+
+div ul.list-unstyled li a:hover {
+  color: #ff9900 !important;
+}
+
+div input[type=tel]::placeholder {
+  color: #567592 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

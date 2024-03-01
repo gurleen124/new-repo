@@ -14,7 +14,7 @@
 <body>
     <!-- header section-->
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top p-3 navbar-light bg-light bg-opacity-75">
+        <nav class="navbar navbar-expand-lg fixed-top p-3 navbar-light bg-white bg-opacity-75">
             <div class="container px-3">
                 <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg" height="31px"
                         alt="productly-logo"></a>
@@ -26,16 +26,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 ms-auto small">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Product</a>
+                            <a class="nav-link" aria-current="page" href="#product">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Customers</a>
+                            <a class="nav-link" href="#customers">Customers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#pricing">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Resources</a>
+                            <a class="nav-link" href="#resources">Resources</a>
                         </li>
                     </ul>
                     <div class="d-flex ms-lg-4">
@@ -55,7 +55,7 @@
         <!-- hero section -->
         <section class="py-5 mt-5">
             <div class="container">
-                <div class="row py-5">
+                <div class="row pt-5">
                     <div class="col-lg-6 px-3">
                         <h1 class="fw-bold pt-lg-5 mt-lg-3 display-5 text-dark">The Design Thinking Superpowers</h1>
                         <p class="mt-4 fs-5 text-secondary mb-lg-5">Tools tutorials, design and innovation experts, all
@@ -64,7 +64,8 @@
                         <div class="d-lg-flex align-items-center">
                             <a class="btn btn-warning text-white rounded-1 px-5 py-3 fw-semibold me-3" href="#"
                                 role="button">Get Started</a>
-                            <a class="btn btn-link px-4 py-2 fw-semibold text-warning" href="#" role="button">
+                            <a href="#" class="btn btn-link px-4 py-2 fw-semibold text-warning" role="button"
+                                data-bs-toggle="modal" data-bs-target="#videoModal">
                                 <svg class="svg-inline--fa fa-play fa-w-14 me-2" aria-hidden="true" focusable="false"
                                     data-prefix="fas" data-icon="play" role="img" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 448 512" height="15px" data-fa-i2svg="">
@@ -83,7 +84,7 @@
         </section>
         <!-- /hero section -->
         <!-- design tools section -->
-        <section class="bg-design-tools my-5 pb-5 z-n1">
+        <section class="bg-design-tools my-5 py-5 z-n1" id="product">
             <div class="container">
                 <div class="row text-center justify-content-center mb-4">
                     <div class="col-lg-8 pt-5">
@@ -133,7 +134,7 @@
         </section>
         <!-- /design tools section -->
         <!-- design professionals section -->
-        <section class="pb-5 text-dark">
+        <section class="pb-5 text-dark" id="customers">
             <div class="container">
                 <div class="row py-5">
                     <div class="col-lg-6 px-3">
@@ -203,7 +204,7 @@
         <!-- marketers -->
         <section class="pb-5 text-dark">
             <div class="container">
-                <div class="row py-5">
+                <div class="row pt-5">
                     <div class="col-lg-6 px-3">
                         <p class="text-secondary fw-semibold fs-5 mb-2">Optimisation for</p>
                         <h2 class="fw-bold text-dark">Marketers</h2>
@@ -231,10 +232,10 @@
         </section>
         <!-- /marketers -->
         <!-- contact section -->
-        <section class="bg-contact-section my-5 pb-5">
+        <section class="bg-contact-section my-5 pb-5" id="pricing">
             <div class="container py-5">
                 <div class="row text-center justify-content-center mb-4 mt-5">
-                    <div class="col-lg-6 py-5 my-5">
+                    <div class="col-lg-6 pt-5 my-5">
                         <h2 class="fw-bold text-dark mb-4">Need a super hero?</h2>
                         <p class="text-info fw-medium mb-5">Do you require some help for your project: Conception
                             workshop,
@@ -248,7 +249,7 @@
         </section>
         <!-- /contact section -->
         <!-- blog section -->
-        <section class="container mb-5 pb-5">
+        <section class="container mb-5 pb-4" id="resources">
             <div>
                 <h2 class="fw-bold mb-3 text-dark">Marketing Strategies</h2>
                 <p class="mb-5 text-secondary">Join 40,000+ other marketers and get proven strategies on email marketing
@@ -295,7 +296,7 @@
     <!-- /main section -->
     <!-- footer section -->
     <footer class="container">
-        <hr>
+        <hr class="border-secondary-subtle">
         <div class="row my-5 pt-3 justify-content-between">
             <div class="col-lg-3">
                 <img src="/assets/images/logo.svg" alt="productly-logo">
@@ -322,13 +323,13 @@
                 <div class="fs-5 mb-4">knowing you're always on the best energy deal.</div>
                 <div><input type="tel" class="form-control py-2 px-4 mb-3" placeholder="Enter your Phone Number"
                         aria-label="phone" aria-describedby="basic-addon1">
-                    <a class="btn btn-warning text-white rounded-1 px-4 py-1 fw-semibold" href="#" role="button">Sign Up
+                    <a class="btn btn-warning text-white rounded-1 px-4 py-1 fw-semibold" href="#" role="button">Sign up
                         Now
                     </a>
                 </div>
             </div>
         </div>
-        <hr class="mb-0">
+        <hr class="mb-0 border-secondary-subtle">
         <div class="row p-3">
             <div class="col-lg-6 text-start">© 2024 Your Company Inc</div>
             <div class="col-lg-6 text-end">Made with <span><svg xmlns="http://www.w3.org/2000/svg" width="16"

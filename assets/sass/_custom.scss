@@ -27,7 +27,9 @@ div {
     }
 
     a.btn-outline-primary:active,
-    a.btn-outline-primary:focus {
+    a.btn-outline-primary:focus,
+    a.btn-link:active,
+    a.btn-link:focus {
         box-shadow: 0 0 0 0.25rem $shadow-color;
     }
 
@@ -55,10 +57,27 @@ div {
 
 div {
     p.card-text {
-        a{
+        a {
             strong:hover {
                 color: $warning-color;
             }
         }
+    }
+}
+
+div {
+    ul.list-unstyled {
+        li {
+            a:hover {
+                color: $warning-color !important;
+            }
+        }
+    }
+}
+
+div{
+    input[type="tel"]::placeholder{
+        color: $info-color !important;
+        
     }
 }
