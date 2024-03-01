@@ -58,14 +58,14 @@
                 <div class="row pt-5">
                     <div class="col-lg-6 px-3">
                         <h1 class="fw-bold pt-lg-5 mt-lg-3 display-5 text-dark">The Design Thinking Superpowers</h1>
-                        <p class="mt-4 fs-5 text-secondary mb-lg-5">Tools tutorials, design and innovation experts, all
-                            in one place! The most intuitive way to imagine
+                        <p class="mt-4 fs-5 text-secondary mb-lg-5 pe-5">Tools tutorials, design and innovation experts,
+                            all in one place! The most intuitive way to imagine
                             your next user experience.</p>
                         <div class="d-lg-flex align-items-center">
                             <a class="btn btn-warning text-white rounded-1 px-5 py-3 fw-semibold me-3" href="#"
                                 role="button">Get Started</a>
-                            <a href="#" class="btn btn-link px-4 py-2 fw-semibold text-warning" role="button"
-                                data-bs-toggle="modal" data-bs-target="#videoModal">
+                            <button type="button" class="btn btn-link px-4 py-2 fw-semibold text-warning"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <svg class="svg-inline--fa fa-play fa-w-14 me-2" aria-hidden="true" focusable="false"
                                     data-prefix="fas" data-icon="play" role="img" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 448 512" height="15px" data-fa-i2svg="">
@@ -73,7 +73,20 @@
                                         d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z">
                                     </path>
                                 </svg><span>Watch the video</span>
-                            </a>
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div>
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/_lhdhL4UDIo?si=lZrnYytG485M6oFC"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6 ms-lg-auto">
@@ -84,7 +97,7 @@
         </section>
         <!-- /hero section -->
         <!-- design tools section -->
-        <section class="bg-design-tools my-5 py-5 z-n1" id="product">
+        <section class="my-5 py-5" id="product">
             <div class="container">
                 <div class="row text-center justify-content-center mb-4">
                     <div class="col-lg-8 pt-5">
@@ -94,41 +107,43 @@
                     </div>
                 </div>
             </div>
-
-            <div class="container">
-                <div class="row text-start">
-                    <div class="col-lg-3 px-3">
-                        <img src="./assets/images/icon1.png" alt="cursor" width="75px"
-                            class=" mb-3 position-relative ms-n3">
-                        <h5 class="mb-3 fw-semibold text-dark">First click tests</h5>
-                        <p class="fw-medium text-secondary">While most people enjoy casino gambling,</p>
+            <div class="bg-design-tools py-5">
+                <div class="container py-5">
+                    <div class="row text-start">
+                        <div class="col-lg-3 px-3">
+                            <img src="./assets/images/icon1.png" alt="cursor" width="75px"
+                                class=" mb-3 position-relative ms-n3">
+                            <h5 class="mb-3 fw-semibold text-dark">First click tests</h5>
+                            <p class="fw-medium text-secondary pe-5">While most people enjoy casino gambling,</p>
+                        </div>
+                        <div class="col-lg-3 px-3">
+                            <img src="./assets/images/icon2.png" alt="survey" width="75px"
+                                class="mb-3 position-relative ms-n3">
+                            <h5 class="mb-3 fw-semibold text-dark">Design surveys</h5>
+                            <p class="fw-medium text-secondary pe-5">Sports betting,lottery and bingo playing for the
+                                fun</p>
+                        </div>
+                        <div class="col-lg-3 px-3">
+                            <img src="./assets/images/icon3.png" alt="preference" width="75px"
+                                class="mb-3 position-relative ms-n3">
+                            <h5 class="mb-3 fw-semibold text-dark">Preference tests</h5>
+                            <p class="fw-medium text-secondary pe-5">The Myspace page defines the individual.</p>
+                        </div>
+                        <div class="col-lg-3 px-3">
+                            <img src="./assets/images/icon4.png" alt="time" width="75px"
+                                class="mb-3 position-relative ms-n3">
+                            <h5 class="mb-3 fw-semibold text-dark">Five second tests</h5>
+                            <p class="fw-medium text-secondary pe-5">Personal choices and the overall personality of the
+                                person.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-lg-3 px-3">
-                        <img src="./assets/images/icon2.png" alt="survey" width="75px"
-                            class="mb-3 position-relative ms-n3">
-                        <h5 class="mb-3 fw-semibold text-dark">Design surveys</h5>
-                        <p class="fw-medium text-secondary">Sports betting,lottery and bingo playing for the fun</p>
+                    <div class="d-flex justify-content-center pb-4">
+                        <a class="btn btn-warning text-white rounded-1 px-4 py-2 fw-semibold text-uppercase" href="#"
+                            role="button">Sign Up
+                            Now
+                        </a>
                     </div>
-                    <div class="col-lg-3 px-3">
-                        <img src="./assets/images/icon3.png" alt="preference" width="75px"
-                            class="mb-3 position-relative ms-n3">
-                        <h5 class="mb-3 fw-semibold text-dark">Preference tests</h5>
-                        <p class="fw-medium text-secondary">The Myspace page defines the individual.</p>
-                    </div>
-                    <div class="col-lg-3 px-3">
-                        <img src="./assets/images/icon4.png" alt="time" width="75px"
-                            class="mb-3 position-relative ms-n3">
-                        <h5 class="mb-3 fw-semibold text-dark">Five second tests</h5>
-                        <p class="fw-medium text-secondary">Personal choices and the overall personality of the
-                            person.
-                        </p>
-                    </div>
-                </div>
-                <div class="d-flex justify-content-center pb-4">
-                    <a class="btn btn-warning text-white rounded-1 px-4 py-2 fw-semibold text-uppercase" href="#"
-                        role="button">Sign Up
-                        Now
-                    </a>
                 </div>
             </div>
         </section>
@@ -180,17 +195,17 @@
                         <div class="row">
                             <div class="col-lg-10 text-secondary fw-medium">
                                 <div class="d-flex align-items-center mb-3">
-                                    <img src="/assets/images/tick.png" alt="tick-icon" class="me-4">
+                                    <img src="./assets/images/tick.png" alt="tick-icon" class="me-4">
                                     <p class="mb-0">Never worry about overpaying for your
                                         energy again.</p>
                                 </div>
                                 <div class="d-flex align-items-center mb-3">
-                                    <img src="/assets/images/tick.png" alt="tick-icon" class="me-4">
+                                    <img src="./assets/images/tick.png" alt="tick-icon" class="me-4">
                                     <p class="mb-0">We will only switch you to energy companies
                                         that we trust and will treat you right</p>
                                 </div>
                                 <div class="d-flex align-items-center mb-3">
-                                    <img src="/assets/images/tick.png" alt="tick-icon" class="me-4">
+                                    <img src="./assets/images/tick.png" alt="tick-icon" class="me-4">
                                     <p class="mb-0">We track the markets daily and know where the
                                         savings are.</p>
                                 </div>
@@ -258,7 +273,7 @@
             <div class="row pb-5 mb-5">
                 <div class="col-lg-4">
                     <div class="card mb-3 border-0">
-                        <img src="/assets/images/marketing01.png" class="card-img-top" alt="marketing">
+                        <img src="./assets/images/marketing01.png" class="card-img-top" alt="marketing">
                         <div class="card-body ps-0">
                             <p class="card-text text-body-secondary">By <a href="#"
                                     class="text-decoration-none text-reset"><strong>Abdullah</strong></a> | 03 March
@@ -269,7 +284,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card mb-3 border-0">
-                        <img src="/assets/images/marketing02.png" class="card-img-top" alt="marketing">
+                        <img src="./assets/images/marketing02.png" class="card-img-top" alt="marketing">
                         <div class="card-body ps-0">
                             <p class="card-text text-body-secondary">By <a href="#"
                                     class="text-decoration-none text-reset"><strong>Abdullah</strong></a> | 03 March
@@ -280,7 +295,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card mb-3 border-0">
-                        <img src="/assets/images/marketing03.png" class="card-img-top" alt="marketing">
+                        <img src="./assets/images/marketing03.png" class="card-img-top" alt="marketing">
                         <div class="card-body ps-0">
                             <p class="card-text text-body-secondary">By <a href="#"
                                     class="text-decoration-none text-reset"><strong>Abdullah</strong></a> | 03 March
@@ -299,7 +314,7 @@
         <hr class="border-secondary-subtle">
         <div class="row my-5 pt-3 justify-content-between">
             <div class="col-lg-3">
-                <img src="/assets/images/logo.svg" alt="productly-logo">
+                <img src="./assets/images/logo.svg" alt="productly-logo">
             </div>
             <div class="col-lg-3">
                 <h5 class="mb-lg-4 text-dark fw-normal">Quick Links</h5>
@@ -340,6 +355,7 @@
         </div>
     </footer>
     <!-- /footer section -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
