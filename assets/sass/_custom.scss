@@ -1,8 +1,32 @@
+/*======== global scss =========*/
 .ms-n3 {
     left: -16px;
 }
 
-div {
+a.btn-outline-primary:hover,
+a.btn-outline-primary:active,
+a.btn-outline-primary:focus,
+a.btn-outline-primary:visited {
+    background-color: $white !important;
+    color: $secondary-color;
+}
+
+a.btn-outline-primary:active,
+a.btn-outline-primary:focus,
+a.btn-link:active,
+a.btn-link:focus {
+    box-shadow: 0 0 0 0.25rem $shadow-color;
+}
+
+a.btn-warning:hover,
+a.btn-warning:focus {
+    background-color: $btn-bg-hover-color !important;
+    border-color: $btn-bg-hover-color;
+    color: $secondary-color;
+}
+
+/*======== navbar scss ========*/
+header {
     ul {
         li {
             .nav-link {
@@ -16,56 +40,39 @@ div {
     }
 }
 
-div {
-
-    a.btn-outline-primary:hover,
-    a.btn-outline-primary:active,
-    a.btn-outline-primary:focus,
-    a.btn-outline-primary:visited {
-        background-color: $white !important;
-        color: $secondary-color;
-    }
-
-    a.btn-outline-primary:active,
-    a.btn-outline-primary:focus,
-    a.btn-link:active,
-    a.btn-link:focus {
-        box-shadow: 0 0 0 0.25rem $shadow-color;
-    }
-
-    a.btn-warning:hover,
-    a.btn-warning:focus {
-        background-color: $btn-bg-hover-color !important;
-        border-color: $btn-bg-hover-color;
-        color: $secondary-color;
-    }
-
-}
-
+/*======= design tools section scss =======*/
 .bg-design-tools {
     background-image: url(/assets/images/bg-shape.png);
     background-repeat: no-repeat;
     background-position-y: bottom;
+    background-position-x: center;
     background-size: contain;
 }
 
+/*======= contact section scss =======*/
+
 .bg-contact-section {
     background-image: url(/assets/images/oval.png);
-    background-size: cover;
+    background-repeat: no-repeat;
     background-position: top;
+    background-position-x: center;
 }
 
-div {
-    p.card-text {
-        a {
-            strong:hover {
-                color: $warning-color;
+/*======= resources section scss =======*/
+#resources {
+    div {
+        p.card-text {
+            a {
+                strong:hover {
+                    color: $warning-color;
+                }
             }
         }
     }
 }
 
-div {
+/*======= footer scss =======*/
+footer {
     ul.list-unstyled {
         li {
             a:hover {
@@ -73,11 +80,8 @@ div {
             }
         }
     }
-}
-
-div{
-    input[type="tel"]::placeholder{
+    input[type="tel"]::placeholder {
         color: $info-color !important;
-        
+
     }
 }

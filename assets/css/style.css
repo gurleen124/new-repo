@@ -11852,59 +11852,68 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/*======== global scss =========*/
 .ms-n3 {
   left: -16px;
 }
 
-div ul li .nav-link {
-  color: #212832;
-}
-div ul li .nav-link:hover {
-  color: #ff9900;
-}
-
-div a.btn-outline-primary:hover,
-div a.btn-outline-primary:active,
-div a.btn-outline-primary:focus,
-div a.btn-outline-primary:visited {
+a.btn-outline-primary:hover,
+a.btn-outline-primary:active,
+a.btn-outline-primary:focus,
+a.btn-outline-primary:visited {
   background-color: #fff !important;
   color: #544837;
 }
-div a.btn-outline-primary:active,
-div a.btn-outline-primary:focus,
-div a.btn-link:active,
-div a.btn-link:focus {
+
+a.btn-outline-primary:active,
+a.btn-outline-primary:focus,
+a.btn-link:active,
+a.btn-link:focus {
   box-shadow: 0 0 0 0.25rem rgba(255, 153, 0, 0.2509803922);
 }
-div a.btn-warning:hover,
-div a.btn-warning:focus {
+
+a.btn-warning:hover,
+a.btn-warning:focus {
   background-color: #d98200 !important;
   border-color: #d98200;
   color: #544837;
 }
 
+/*======== navbar scss ========*/
+header ul li .nav-link {
+  color: #212832;
+}
+header ul li .nav-link:hover {
+  color: #ff9900;
+}
+
+/*======= design tools section scss =======*/
 .bg-design-tools {
   background-image: url(/assets/images/bg-shape.png);
   background-repeat: no-repeat;
   background-position-y: bottom;
+  background-position-x: center;
   background-size: contain;
 }
 
+/*======= contact section scss =======*/
 .bg-contact-section {
   background-image: url(/assets/images/oval.png);
-  background-size: cover;
+  background-repeat: no-repeat;
   background-position: top;
+  background-position-x: center;
 }
 
-div p.card-text a strong:hover {
+/*======= resources section scss =======*/
+#resources div p.card-text a strong:hover {
   color: #ff9900;
 }
 
-div ul.list-unstyled li a:hover {
+/*======= footer scss =======*/
+footer ul.list-unstyled li a:hover {
   color: #ff9900 !important;
 }
-
-div input[type=tel]::placeholder {
+footer input[type=tel]::placeholder {
   color: #567592 !important;
 }
 
